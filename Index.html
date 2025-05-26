@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>वीडियो कोर्स - शैक्षिक पाठ्यक्रम</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #1a1a1a; /* Black background */
+            color: #ff0000; /* Red text for ghost theme */
+        }
+
+        header {
+            background-color: #000;
+            color: #ff0000;
+            text-align: center;
+            padding: 2rem;
+            border-bottom: 2px solid #ff0000;
+            text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000; /* Ghostly glow */
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .video-card {
+            background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+            border: 1px solid #ff0000;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(255, 0, 0, 0.5); /* Red glow */
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .video-card:hover {
+            transform: scale(1.05); /* Slight zoom for ghost effect */
+            box-shadow: 0 0 25px rgba(255, 0, 0, 0.8); /* Brighter red glow */
+        }
+
+        .video-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            opacity: 0.9; /* Slightly transparent for spooky vibe */
+            transition: opacity 0.3s;
+        }
+
+        .video-card:hover img {
+            opacity: 1; /* Full opacity on hover */
+        }
+
+        .video-card-content {
+            padding: 1.5rem;
+        }
+
+        .video-card-content h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: #ff0000;
+            text-shadow: 0 0 8px rgba(255, 0, 0, 0.7); /* Ghostly red glow */
+        }
+
+        .video-card-content p {
+            color: #cc0000; /* Darker red for secondary text */
+            margin-bottom: 1rem;
+        }
+
+        .video-card-content a {
+            display: inline-block;
+            background-color: #ff0000;
+            color: #000;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+
+        .video-card-content a:hover {
+            background-color: #cc0000; /* Darker red on hover */
+            box-shadow: 0 0 10px #ff0000; /* Glowing button */
+        }
+
+        footer {
+            background-color: #000;
+            color: #ff0000;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+            border-top: 2px solid #ff0000;
+            text-shadow: 0 0 10px #ff0000;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>शैक्षिक वीडियो कोर्स</h1>
+    </header>
+
+    <div class="container">
+        <!-- Video 1 -->
+        <div class="video-card">
+            <img src="Educational Management.png" alt="Educational Management Thumbnail">
+            <div class="video-card-content">
+                <h3>Part-1 || पाठ्यक्रम परिचर्चा (Curriculum Discussion)</h3>
+                <p>17-May</p>
+                <a href="https://apps-s3-jw-prod.utkarshapp.com/admin_v1/file_library/videos/enc_plain_mp4/2569970/plain/720x1280.mp4">वीडियो चलाएँ</a>
+            </div>
+        </div>
+
+        <!-- Video 2 -->
+        <div class="video-card">
+            <img src="Education Psychology.png" alt="Educational Psychology Thumbnail">
+            <div class="video-card-content">
+                <h3>Part-1 || शैक्षिक परिदृश्य (Educational Scenario)</h3>
+                <p>20-May</p>
+                <a href="https://apps-s3-jw-prod.utkarshapp.com/admin_v1/file_library/videos/enc_plain_mp4/2573459/plain/720x1280.mp4">वीडियो चलाएँ</a>
+            </div>
+        </div>
+
+        <!-- Video 3 -->
+        <div class="video-card">
+            <img src="Educational Psychology.png" alt="Educational Psychology Thumbnail">
+            <div class="video-card-content">
+                <h3>Part-2 || शैक्षिक परिदृश्य (Educational Scenario)</h3>
+                <p>21-May</p>
+                <a href="https://apps-s3-jw-prod.utkarshapp.com/admin_v1/file_library/videos/enc_plain_mp4/2575171/plain/720x1280.mp4">वीडियो चलाएँ</a>
+            </div>
+        </div>
+
+        <!-- Video 4 -->
+        <div class="video-card">
+            <img src="Educational Psychology.png" alt="Educational Psychology Thumbnail">
+            <div class="video-card-content">
+                <h3>Part-3 || शैक्षिक परिदृश्य (Educational Scenario)</h3>
+                <p>22-May</p>
+                <a href="https://apps-s3-jw-prod.utkarshapp.com/admin_v1/file_library/videos/enc_plain_mp4/2576956/plain/720x1280.mp4">वीडियो चलाएँ</a>
+            </div>
+        </div>
+
+        <!-- Video 5 -->
+        <div class="video-card">
+            <img src="Educational Scenario.png" alt="Educational Scenario Thumbnail">
+            <div class="video-card-content">
+                <h3>Part-1 || भारत के शैक्षणिक संस्थान (Educational Institutions of India)</h3>
+                <p>23-May</p>
+                <a href="https://apps-s3-jw-prod.utkarshapp.com/admin_v1/file_library/videos/enc_plain_mp4/2578847/plain/720x1280.mp4">वीडियो चलाएँ</a>
+            </div>
+        </div>
+
+        <!-- Video 6 -->
+        <div class="video-card">
+            <img src="Educational Scenario.png" alt="Educational Scenario Thumbnail">
+            <div class="video-card-content">
+                <h3>Part-2 || भारत के शैक्षणिक संस्थान (Educational Institutions of India)</h3>
+                <p>24-May</p>
+                <a href="https://apps-s3-jw-prod.utkarshapp.com/admin_v1/file_library/videos/enc_plain_mp4/2580625/plain/720x1280.mp4">वीडियो चलाएँ</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 शैक्षिक वीडियो कोर्स. सभी अधिकार सुरक्षित.</p>
+    </footer>
+</body>
+</html>
